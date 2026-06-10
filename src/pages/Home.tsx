@@ -15,7 +15,7 @@ const Home: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-10 md:mb-0">
               <h1 className="text-4xl md:text-5xl font-bold mb-4">
-                Python数据分析AI训练平台
+                Python数据分析实战训练平台
               </h1>
               <p className="text-xl mb-8">
                 基于Cloudflare免费资源，实现"3步认知+10个梯度项目+AI错题倒逼"的Python数据分析实操训练平台，零成本、零运维、无传统后端，打开浏览器即可使用。
@@ -33,7 +33,7 @@ const Home: React.FC = () => {
             <div className="md:w-1/2">
               <img
                 src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Python%20data%20analysis%20AI%20training%20platform%20dashboard&image_size=landscape_16_9"
-                alt="Python数据分析AI训练平台"
+                alt="Python数据分析实战训练平台"
                 className="rounded-lg shadow-2xl w-full"
               />
             </div>

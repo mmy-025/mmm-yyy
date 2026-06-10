@@ -1,7 +1,7 @@
-# Cloudflare免费版Python数据分析AI训练平台 - 部署实施规范
+# Cloudflare免费版Python数据分析实战训练平台 - 部署实施规范
 
 ## Why
-需要将已完成的Python数据分析AI训练平台部署到Cloudflare免费资源上，实现零成本、零运维的在线学习平台。
+需要将已完成的Python数据分析实战训练平台部署到Cloudflare免费资源上，实现零成本、零运维的在线学习平台。
 
 ## What Changes
 - 前端应用部署到Cloudflare Pages
@@ -11,7 +11,7 @@
 - AI Gateway配置
 
 ## Impact
-- Affected specs: Python数据分析AI训练平台完整功能
+- Affected specs: Python数据分析实战训练平台完整功能
 - Affected code: worker-ai-proxy.ts, worker-static-content.ts, kv-data.json
 
 ## ADDED Requirements

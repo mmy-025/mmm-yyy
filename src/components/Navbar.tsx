@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <div className="flex items-center space-x-2">
           <Book className="h-6 w-6" />
-          <Link to="/" className="text-xl font-bold">Python数据分析AI训练平台</Link>
+          <Link to="/" className="text-xl font-bold">Python数据分析实战训练平台</Link>
         </div>
 
         {/* 桌面导航 */}
