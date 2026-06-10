@@ -18,7 +18,7 @@ const Home: React.FC = () => {
                 Python数据分析实战训练平台
               </h1>
               <p className="text-xl mb-8">
-                基于Cloudflare免费资源，实现"3步认知+10个梯度项目+AI错题倒逼"的Python数据分析实操训练平台，零成本、零运维、无传统后端，打开浏览器即可使用。
+                基于Cloudflare免费资源，实现"10个梯度项目+实战项目"的Python数据分析实操训练平台，零成本、零运维、无传统后端，打开浏览器即可使用。
               </p>
               <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
                 <Link to="/projects" className="bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-6 rounded-lg transition-colors flex items-center justify-center">
