@@ -1,0 +1,389 @@
+{
+  "thinking-models": [
+    {
+      "id": 1,
+      "title": "数据分析的核心思维",
+      "description": "数据分析不仅仅是技术操作，更是一种思维方式。它要求我们以数据为基础，通过逻辑推理和统计方法，从复杂的现象中发现规律和洞察。",
+      "keyPoints": [
+        "以数据为依据，避免主观臆断",
+        "注重逻辑推理，而非直觉判断",
+        "善于从数据中发现问题和机会",
+        "持续验证和迭代分析方法"
+      ],
+      "icon": "brain"
+    },
+    {
+      "id": 2,
+      "title": "结构化思维",
+      "description": "将复杂问题分解为简单的组成部分，通过结构化的方法进行分析和解决。这种思维方式有助于我们更清晰地理解问题，提高分析效率。",
+      "keyPoints": [
+        "分解问题：将复杂问题拆分为可管理的部分",
+        "建立框架：构建分析的逻辑框架",
+        "层次分明：确保分析的层次清晰",
+        "逻辑连贯：保证分析过程的逻辑一致性"
+      ],
+      "icon": "book-open"
+    },
+    {
+      "id": 3,
+      "title": "假设驱动思维",
+      "description": "在分析前提出假设，然后通过数据验证假设的正确性。这种思维方式可以帮助我们更有针对性地收集和分析数据，提高分析的效率和准确性。",
+      "keyPoints": [
+        "提出假设：基于已有信息提出合理的假设",
+        "设计验证方法：制定验证假设的数据分析方案",
+        "收集数据：获取相关数据进行验证",
+        "分析结果：根据验证结果调整假设"
+      ],
+      "icon": "lightbulb"
+    },
+    {
+      "id": 4,
+      "title": "目标导向思维",
+      "description": "明确分析的目标，围绕目标展开分析工作。这种思维方式可以确保分析的针对性和实用性，避免无意义的数据分析。",
+      "keyPoints": [
+        "明确目标：清晰定义分析的目标和问题",
+        "聚焦重点：围绕目标确定分析的重点",
+        "衡量指标：建立衡量目标实现程度的指标",
+        "结果导向：确保分析结果能够解决实际问题"
+      ],
+      "icon": "target"
+    }
+  ],
+  "controversies": [
+    {
+      "id": 1,
+      "title": "数据驱动 vs 经验驱动",
+      "description": "在决策过程中，是应该完全依赖数据，还是应该结合经验判断？",
+      "arguments": [
+        {
+          "side": "数据驱动",
+          "points": [
+            "数据提供客观、可量化的依据",
+            "避免主观偏见和直觉错误",
+            "能够发现隐藏的模式和趋势",
+            "便于追踪和验证决策效果"
+          ]
+        },
+        {
+          "side": "经验驱动",
+          "points": [
+            "数据可能存在偏差或局限性",
+            "经验能够处理复杂的情境因素",
+            "快速决策时经验更高效",
+            "直觉有时能发现数据之外的机会"
+          ]
+        }
+      ],
+      "conclusion": "理想的决策方式是数据与经验的结合。数据提供客观基础，经验提供情境理解，两者相辅相成，才能做出更全面、更准确的决策。"
+    },
+    {
+      "id": 2,
+      "title": "机器学习 vs 传统统计方法",
+      "description": "在数据分析中，是应该优先使用机器学习算法，还是坚持传统的统计方法？",
+      "arguments": [
+        {
+          "side": "机器学习",
+          "points": [
+            "能够处理复杂的非线性关系",
+            "自动发现特征和模式",
+            "在大规模数据上表现优异",
+            "适应不断变化的数据分布"
+          ]
+        },
+        {
+          "side": "传统统计方法",
+          "points": [
+            "结果可解释性强",
+            "理论基础扎实",
+            "计算资源需求低",
+            "对小样本数据更稳健"
+          ]
+        }
+      ],
+      "conclusion": "选择哪种方法取决于具体的应用场景。对于需要解释性的场景，传统统计方法更合适；对于复杂的预测问题，机器学习可能更有效。在实际应用中，常常需要结合使用两种方法。"
+    },
+    {
+      "id": 3,
+      "title": "大数据 vs 小数据",
+      "description": "在数据分析中，是应该追求数据的规模，还是注重数据的质量？",
+      "arguments": [
+        {
+          "side": "大数据",
+          "points": [
+            "能够捕捉更全面的信息",
+            "降低抽样误差",
+            "发现罕见但重要的模式",
+            "支持更复杂的分析方法"
+          ]
+        },
+        {
+          "side": "小数据",
+          "points": [
+            "数据收集和处理成本低",
+            "数据质量更容易控制",
+            "分析速度快",
+            "更适合针对性的问题"
+          ]
+        }
+      ],
+      "conclusion": "数据的价值不在于规模，而在于是否能够解决具体问题。在保证数据质量的前提下，适当扩大数据规模可以提高分析的准确性和可靠性。关键是根据问题的性质和资源条件，选择合适的数据策略。"
+    },
+    {
+      "id": 4,
+      "title": "自动化分析 vs 人工分析",
+      "description": "在数据分析中，是应该尽可能自动化分析过程，还是保留人工分析的环节？",
+      "arguments": [
+        {
+          "side": "自动化分析",
+          "points": [
+            "提高分析效率和一致性",
+            "减少人为错误和偏见",
+            "处理大规模数据的能力强",
+            "可以实时监控和分析数据"
+          ]
+        },
+        {
+          "side": "人工分析",
+          "points": [
+            "能够理解复杂的业务 context",
+            "发现自动化工具可能忽略的洞察",
+            "提供创造性的分析视角",
+            "更好地解释分析结果"
+          ]
+        }
+      ],
+      "conclusion": "自动化和人工分析是互补的。自动化可以处理重复性、大规模的分析任务，而人工分析则可以提供深度理解和创造性洞察。理想的分析流程应该是自动化与人工的有机结合。"
+    }
+  ],
+  "quiz-questions": [
+    {
+      "id": 1,
+      "question": "数据分析的核心是技术工具，掌握了工具就掌握了数据分析。",
+      "options": ["正确", "错误"],
+      "correctAnswer": 1,
+      "explanation": "数据分析的核心是思维方式，而不仅仅是技术工具。掌握了正确的思维模型，才能更灵活地运用各种技术工具，从数据中获得有价值的洞察。"
+    },
+    {
+      "id": 2,
+      "question": "在数据分析中，数据量越大，分析结果越准确。",
+      "options": ["正确", "错误"],
+      "correctAnswer": 1,
+      "explanation": "数据的价值不在于规模，而在于是否能够解决具体问题。在保证数据质量的前提下，适当扩大数据规模可以提高分析的准确性和可靠性。但如果数据质量差，数据量越大，错误也会越多。"
+    },
+    {
+      "id": 3,
+      "question": "机器学习算法总是比传统统计方法更有效。",
+      "options": ["正确", "错误"],
+      "correctAnswer": 1,
+      "explanation": "选择哪种方法取决于具体的应用场景。对于需要解释性的场景，传统统计方法更合适；对于复杂的预测问题，机器学习可能更有效。在实际应用中，常常需要结合使用两种方法。"
+    },
+    {
+      "id": 4,
+      "question": "数据分析的结果应该完全客观，不包含任何主观判断。",
+      "options": ["正确", "错误"],
+      "correctAnswer": 1,
+      "explanation": "数据分析的结果需要结合业务 context 进行解读，完全客观的数据分析可能缺乏实际意义。理想的分析应该是数据与经验的结合，数据提供客观基础，经验提供情境理解。"
+    },
+    {
+      "id": 5,
+      "question": "数据可视化的主要目的是使数据更美观。",
+      "options": ["正确", "错误"],
+      "correctAnswer": 1,
+      "explanation": "数据可视化的主要目的是帮助人们更直观地理解数据，发现数据中的模式和趋势，而不仅仅是为了美观。好的数据可视化应该清晰、准确地传达信息。"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "项目1：Python基础语法",
+      "description": "学习Python基本语法，包括变量、数据类型、控制流等",
+      "difficulty": "初级",
+      "duration": 2,
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Python%20basic%20syntax%20tutorial&image_size=landscape_16_9"
+    },
+    {
+      "id": 2,
+      "title": "项目2：数据读取与清洗",
+      "description": "学习使用Pandas读取和清洗数据",
+      "difficulty": "初级",
+      "duration": 3,
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Data%20cleaning%20with%20Pandas&image_size=landscape_16_9"
+    },
+    {
+      "id": 3,
+      "title": "项目3：数据可视化基础",
+      "description": "使用Matplotlib创建基本的数据可视化图表",
+      "difficulty": "初级",
+      "duration": 3,
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Data%20visualization%20with%20Matplotlib&image_size=landscape_16_9"
+    },
+    {
+      "id": 4,
+      "title": "项目4：数据分析基础",
+      "description": "学习使用Pandas进行基本的数据分析",
+      "difficulty": "中级",
+      "duration": 4,
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Data%20analysis%20with%20Pandas&image_size=landscape_16_9"
+    },
+    {
+      "id": 5,
+      "title": "项目5：数据聚合与分组",
+      "description": "学习使用Pandas进行数据聚合和分组操作",
+      "difficulty": "中级",
+      "duration": 4,
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Data%20aggregation%20and%20grouping&image_size=landscape_16_9"
+    },
+    {
+      "id": 6,
+      "title": "项目6：数据挖掘与关联分析",
+      "description": "学习使用mlxtend进行关联规则挖掘",
+      "difficulty": "中级",
+      "duration": 5,
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Data%20mining%20association%20rules&image_size=landscape_16_9"
+    },
+    {
+      "id": 7,
+      "title": "项目7：机器学习基础",
+      "description": "学习使用scikit-learn进行简单的机器学习建模",
+      "difficulty": "高级",
+      "duration": 6,
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Machine%20learning%20basics&image_size=landscape_16_9"
+    },
+    {
+      "id": 8,
+      "title": "项目8：数据可视化进阶",
+      "description": "学习使用Seaborn创建更高级的数据可视化图表",
+      "difficulty": "高级",
+      "duration": 5,
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Advanced%20data%20visualization%20with%20Seaborn&image_size=landscape_16_9"
+    },
+    {
+      "id": 9,
+      "title": "项目9：时间序列分析",
+      "description": "学习使用Pandas进行时间序列数据分析",
+      "difficulty": "高级",
+      "duration": 6,
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Time%20series%20analysis&image_size=landscape_16_9"
+    },
+    {
+      "id": 10,
+      "title": "项目10：综合数据分析项目",
+      "description": "综合运用所学知识进行完整的数据分析",
+      "difficulty": "高级",
+      "duration": 8,
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Comprehensive%20data%20analysis%20project&image_size=landscape_16_9"
+    }
+  ],
+  "knowledge-modules": [
+    {
+      "id": 1,
+      "title": "数据清洗",
+      "knowledge": "数据清洗是数据分析的前置核心步骤，指对原始数据中的缺失值、重复值、异常值、无效格式、冗余数据进行检测与修正，提升数据质量，保证后续分析结果准确。原始数据普遍存在脏数据，数据清洗通常占据数据分析60%-70%的工作量。核心处理对象：缺失值、重复值、格式错误值、无效数据、冗余字段。",
+      "syntax": "# 1. 查看数据基本信息\ndf.info()  # 查看缺失值、数据类型\ndf.describe()  # 查看数值型数据统计特征\ndf.duplicated()  # 检测重复值\n\n# 2. 重复值处理\ndf.drop_duplicates(inplace=True)  # 删除重复行\n\n# 3. 缺失值处理\ndf.isnull().sum()  # 统计各列缺失值数量\ndf.dropna()  # 删除含缺失值的行\ndf.fillna(value)  # 填充缺失值（均值/中位数/众数/固定值）\n\n# 4. 格式修正\ndf['列名'] = pd.to_datetime(df['列名'])  # 时间格式转换\ndf['列名'] = df['列名'].astype(类型)  # 数据类型转换",
+      "steps": "1. 数据探查：通过info、describe、isnull等方法，排查缺失、重复、格式问题；2. 重复值处理：删除完全重复或关键字段重复的无效数据；3. 缺失值处理：少量缺失值删除，大量缺失值根据字段特性填充（数值用均值/中位数，分类用众数）；4. 数据修正：统一时间、数值、字符串格式，删除无效字符、冗余字段；5. 结果校验：再次探查数据，确认无脏数据。",
+      "examples": "import pandas as pd\ndf = pd.read_csv(\"order_data.csv\")\n# 1. 删除重复订单\ndf.drop_duplicates(subset=[\"order_id\"], inplace=True)\n# 2. 手机号缺失值填充为未知\ndf[\"phone\"] = df[\"phone\"].fillna(\"未知\")\n# 3. 时间格式转换\ndf[\"order_time\"] = pd.to_datetime(df[\"order_time\"])\n# 4. 校验清洗结果\nprint(df.isnull().sum())",
+      "codeTemplate": "import pandas as pd\nimport numpy as np\n\n# 创建示例数据\ndata = {\n    'order_id': [1, 2, 2, 3, 4, 5, np.nan],\n    'customer_name': ['张三', '李四', '李四', '王五', '赵六', '钱七', '孙八'],\n    'phone': ['13800138000', '13900139000', np.nan, '13700137000', '13600136000', np.nan, '13500135000'],\n    'amount': [100, 200, 200, 300, np.nan, 500, 600],\n    'order_time': ['2025-01-01', '2025-01-02', '2025-01-02', '2025-01-03', '2025-01-04', '2025-01-05', '2025-01-06']\n}\n\ndf = pd.DataFrame(data)\n\nprint(\"========== 原始数据 ==========\")\nprint(df)\nprint(\"\\n========== 1. 查看数据基本信息 ==========\")\nprint(\"数据概览:\")\nprint(df.info())\nprint(\"\\n重复值数量:\", df.duplicated().sum())\nprint(\"\\n各列缺失值数量:\")\nprint(df.isnull().sum())\n\nprint(\"\\n========== 2. 处理重复值 ==========\")\ndf.drop_duplicates(subset=['order_id'], inplace=True)\nprint(\"删除重复值后的数据:\")\nprint(df)\n\nprint(\"\\n========== 3. 处理缺失值 ==========\")\n# 填充手机号缺失值为'未知'\ndf['phone'] = df['phone'].fillna('未知')\n# 填充金额缺失值为均值\nmean_amount = df['amount'].mean()\ndf['amount'] = df['amount'].fillna(mean_amount)\n# 删除order_id缺失的行\ndf = df.dropna(subset=['order_id'])\nprint(\"填充缺失值后的数据:\")\nprint(df)\n\nprint(\"\\n========== 4. 格式修正 ==========\")\n# 时间格式转换\ndf['order_time'] = pd.to_datetime(df['order_time'])\n# 订单ID转换为整数\ndf['order_id'] = df['order_id'].astype(int)\nprint(\"格式修正后的数据:\")\nprint(df)\nprint(\"\\n========== 5. 校验结果 ==========\")\nprint(\"最终数据类型:\")\nprint(df.info())",
+      "icon": "broom",
+      "description": "对原始数据中的缺失值、重复值、异常值、无效格式、冗余数据进行检测与修正，提升数据质量。"
+    },
+    {
+      "id": 2,
+      "title": "分组聚合分析",
+      "knowledge": "分组聚合是将数据集按照一个或多个维度分组，再对每组数据进行统计计算（求和、均值、计数、最大值、最小值等），实现维度拆解分析，是结构化数据分析的核心手段。常用于业务维度统计，如按地区、时间、品类统计销售额。",
+      "syntax": "# 基础语法\ndf.groupby(分组字段)[聚合字段].聚合函数()\n# 多聚合、多维度分组\ndf.groupby([字段1,字段2]).agg(新字段名=(原字段,聚合函数), 新字段名2=(原字段2,聚合函数2))\n\n常用聚合函数：count()计数、sum()求和、mean()均值、max()最大值、min()最小值、std()标准差",
+      "steps": "1. 确定分析维度（分组字段）和分析指标（聚合字段）；2. 使用groupby完成数据分组；3. 调用聚合函数完成指标计算，多指标使用agg批量聚合；4. 重置索引，优化数据展示格式；5. 筛选、排序结果，输出分析结论。",
+      "examples": "# 多维度分组+多指标聚合\nres = df.groupby([\"省份\",\"品类\"]).agg(\n    订单数量=(\"order_id\",\"count\"),\n    平均销售额=(\"amount\",\"mean\")\n).reset_index()\n# 按订单数量降序排序\nres = res.sort_values(\"订单数量\",ascending=False)",
+      "codeTemplate": "import pandas as pd\nimport numpy as np\n\n# 创建示例销售数据\ndata = {\n    '省份': ['北京', '北京', '上海', '上海', '广州', '广州', '北京', '上海'],\n    '城市': ['北京', '北京', '上海', '上海', '广州', '深圳', '天津', '杭州'],\n    '品类': ['电子产品', '服装', '电子产品', '服装', '电子产品', '服装', '电子产品', '服装'],\n    '订单数': [100, 80, 150, 90, 120, 70, 60, 85],\n    '销售额': [50000, 20000, 75000, 18000, 60000, 14000, 30000, 17000],\n    '客单价': [500, 250, 500, 200, 500, 200, 500, 200]\n}\n\ndf = pd.DataFrame(data)\nprint(\"========== 原始数据 ==========\")\nprint(df)\n\nprint(\"\\n========== 1. 单维度分组统计 ==========\")\n# 按省份统计总销售额\nprovince_sales = df.groupby('省份')['销售额'].sum().reset_index()\nprint(\"按省份分组统计销售额:\")\nprint(province_sales)\n\nprint(\"\\n========== 2. 多维度分组聚合 ==========\")\n# 按省份和品类分组，统计多个指标\nresult = df.groupby(['省份', '品类']).agg(\n    订单总量=('订单数', 'sum'),\n    销售额总和=('销售额', 'sum'),\n    平均客单价=('客单价', 'mean'),\n    订单数最大值=('订单数', 'max')\n).reset_index()\nprint(\"多维度多指标聚合结果:\")\nprint(result)\n\nprint(\"\\n========== 3. 排序分析 ==========\")\n# 按销售额总和降序排序\nsorted_result = result.sort_values('销售额总和', ascending=False)\nprint(\"按销售额降序排序:\")\nprint(sorted_result)\n\nprint(\"\\n========== 4. 单维度多指标聚合 ==========\")\n# 按品类分组，统计所有数值型字段的均值\ncategory_stats = df.groupby('品类').agg({\n    '订单数': ['mean', 'sum'],\n    '销售额': ['mean', 'sum', 'max']\n}).reset_index()\nprint(\"品类维度综合统计:\")\nprint(category_stats)",
+      "icon": "layers",
+      "description": "将数据集按维度分组，对每组数据进行统计计算，实现维度拆解分析。"
+    },
+    {
+      "id": 3,
+      "title": "购物篮分析",
+      "knowledge": "购物篮分析（关联规则挖掘），用于挖掘用户同时购买商品的关联关系，核心是找出商品A购买后大概率购买商品B的规律，应用于商品捆绑销售、货架摆放、推荐系统。三大核心指标：支持度（同时购买A、B的订单占总订单比例）、置信度（购买A后再购买B的概率）、提升度（>1表示正相关）。",
+      "syntax": "支持度：Support(A→B) = 同时包含A、B的交易数 / 总交易数\n置信度：Confidence(A→B) = 同时包含A、B的交易数 / 包含A的交易数\n提升度：Lift(A→B) = Confidence(A→B) / Support(B)",
+      "steps": "1. 数据预处理：将订单数据转换为「订单-商品」一维事务格式；2. 数据独热编码：转换为布尔型矩阵（每个订单对应是否购买某商品）；3. 设置阈值（最小支持度、最小置信度），挖掘关联规则；4. 筛选高提升度、高置信度的有效规则；5. 业务解读与落地应用。",
+      "examples": "from mlxtend.frequent_patterns import apriori, association_rules\n# 1. 构造事务数据\ntransaction = df.groupby(\"订单号\")[\"商品名称\"].apply(list).tolist()\n# 2. 独热编码\nfrom mlxtend.preprocessing import TransactionEncoder\nte = TransactionEncoder()\nte_array = te.fit(transaction).transform(transaction)\ndf_trans = pd.DataFrame(te_array,columns=te.columns_)\n# 3. 挖掘频繁项集（最小支持度0.05）\nfrequent_items = apriori(df_trans,min_support=0.05,use_colnames=True)\n# 4. 生成关联规则（最小置信度0.2）\nrules = association_rules(frequent_items,min_threshold=0.2)\n# 5. 筛选有效正相关规则\nvalid_rules = rules[rules[\"lift\"]>1]",
+      "codeTemplate": "import pandas as pd\nfrom mlxtend.frequent_patterns import apriori, association_rules\nfrom mlxtend.preprocessing import TransactionEncoder\n\n# 创建示例订单数据\ndata = {\n    '订单号': ['001', '001', '002', '002', '002', '003', '003', '004', '004', '004',\n              '005', '006', '006', '007', '008', '008', '009', '009', '010', '010'],\n    '商品名称': ['牛奶', '面包', '面包', '鸡蛋', '牛奶', '面包', '鸡蛋', '牛奶', '面包', '鸡蛋',\n              '果汁', '牛奶', '面包', '鸡蛋', '果汁', '面包', '牛奶', '果汁', '面包', '鸡蛋']\n}\n\ndf = pd.DataFrame(data)\nprint(\"========== 原始订单数据 ==========\")\nprint(df.head(10))\n\nprint(\"\\n========== 1. 构造事务数据 ==========\")\n# 将每个订单的商品组合成列表\ntransactions = df.groupby('订单号')['商品名称'].apply(list).tolist()\nprint(\"事务数据格式:\")\nfor i, t in enumerate(transactions):\n    print(f\"订单{i+1}: {t}\")\n\nprint(\"\\n========== 2. 独热编码 ==========\")\nte = TransactionEncoder()\nte_array = te.fit(transactions).transform(transactions)\ndf_trans = pd.DataFrame(te_array, columns=te.columns_)\nprint(\"编码后的事务矩阵:\")\nprint(df_trans)\n\nprint(\"\\n========== 3. 挖掘频繁项集 ==========\")\n# 最小支持度 0.3\nfrequent_itemsets = apriori(df_trans, min_support=0.3, use_colnames=True)\nprint(\"频繁项集 (支持度 >= 0.3):\")\nprint(frequent_itemsets)\n\nprint(\"\\n========== 4. 生成关联规则 ==========\")\n# 最小置信度 0.5\nrules = association_rules(frequent_itemsets, metric='confidence', min_threshold=0.5)\nprint(\"关联规则:\")\nprint(rules[['antecedents', 'consequents', 'support', 'confidence', 'lift']])\n\nprint(\"\\n========== 5. 筛选有效规则 ==========\")\n# 筛选提升度 > 1 的正相关规则\nvalid_rules = rules[rules['lift'] > 1].sort_values('confidence', ascending=False)\nprint(\"高价值规则 (lift > 1):\")\nprint(valid_rules[['antecedents', 'consequents', 'support', 'confidence', 'lift']])",
+      "icon": "shopping-cart",
+      "description": "挖掘用户同时购买商品的关联关系，应用于商品捆绑销售、推荐系统。"
+    },
+    {
+      "id": 4,
+      "title": "客户聚类分析",
+      "knowledge": "客户聚类是无监督机器学习算法，核心是根据客户多维特征（消费金额、消费频次、购买周期等），将相似客户自动划分为不同群体，实现客户分层，用于精准营销、客户留存、用户运营。最常用算法为K-Means聚类。K-Means核心：通过迭代最小化簇内平方和SSE，将数据划分为K个簇。",
+      "syntax": "簇内平方和公式：SSE=∑(i=1到k)∑(x∈Ci)(x-μi)²\n其中：k为聚类数，Ci为第i个簇，μi为簇中心点均值。",
+      "steps": "1. 特征选取：筛选客户核心特征（RFM模型：最近消费时间、消费频次、消费金额）；2. 数据预处理：标准化、归一化（消除量纲影响）；3. 确定最优K值（手肘法、轮廓系数法）；4. 训练K-Means模型，完成聚类；5. 各簇特征分析，给客户群体打标签（高价值客户、沉睡客户等）。",
+      "examples": "from sklearn.cluster import KMeans\nfrom sklearn.preprocessing import StandardScaler\n# 1. 选取RFM特征并标准化\nfeatures = df[[\"最近消费天数\",\"消费频次\",\"总消费金额\"]]\nscaler = StandardScaler()\nfeatures_scaler = scaler.fit_transform(features)\n# 2. 训练模型，分为4类客户\nkmeans = KMeans(n_clusters=4,random_state=42)\ndf[\"客户标签\"] = kmeans.fit_predict(features_scaler)\n# 3. 查看各聚类群体特征\nprint(df.groupby(\"客户标签\")[[\"最近消费天数\",\"消费频次\",\"总消费金额\"]].mean())",
+      "codeTemplate": "import pandas as pd\nimport numpy as np\nfrom sklearn.cluster import KMeans\nfrom sklearn.preprocessing import StandardScaler\n\n# 创建示例客户RFM数据\ndata = {\n    '客户ID': ['C001', 'C002', 'C003', 'C004', 'C005', 'C006', 'C007', 'C008', 'C009', 'C010',\n               'C011', 'C012', 'C013', 'C014', 'C015', 'C016', 'C017', 'C018', 'C019', 'C020'],\n    '最近消费天数': [5, 30, 10, 60, 3, 45, 7, 90, 2, 20, 15, 80, 4, 100, 8, 50, 1, 35, 12, 70],\n    '消费频次': [20, 5, 15, 3, 25, 4, 18, 2, 30, 10, 12, 1, 22, 1, 16, 3, 28, 6, 14, 2],\n    '总消费金额': [5000, 800, 3500, 500, 6500, 600, 4200, 300, 8000, 1500, 2200, 200, 5800, 150, 3800, 400, 7500, 900, 2800, 350]\n}\n\ndf = pd.DataFrame(data)\nprint(\"========== 原始客户数据 ==========\")\nprint(df)\n\nprint(\"\\n========== 1. 特征标准化 ==========\")\nfeatures = df[['最近消费天数', '消费频次', '总消费金额']]\nscaler = StandardScaler()\nfeatures_scaled = scaler.fit_transform(features)\nprint(\"标准化后的特征前5行:\")\nprint(pd.DataFrame(features_scaled, columns=features.columns).head())\n\nprint(\"\\n========== 2. K-Means聚类 ==========\")\n# 设置聚类数为4\nkmeans = KMeans(n_clusters=4, random_state=42)\ndf['客户簇'] = kmeans.fit_predict(features_scaled)\nprint(\"聚类结果:\")\nprint(df)\n\nprint(\"\\n========== 3. 各簇特征分析 ==========\")\ncluster_stats = df.groupby('客户簇').agg({\n    '最近消费天数': 'mean',\n    '消费频次': 'mean',\n    '总消费金额': ['mean', 'count']\n}).round(2)\ncluster_stats.columns = ['平均最近消费天数', '平均消费频次', '平均消费金额', '客户数']\nprint(\"各聚类群体统计:\")\nprint(cluster_stats)\n\nprint(\"\\n========== 4. 客户分层标签 ==========\")\n# 定义标签规则\nlabels = {0: '高价值客户', 1: '重要发展客户', 2: '流失风险客户', 3: '一般客户'}\ndf['客户标签'] = df['客户簇'].map(labels)\nprint(\"带标签的客户数据:\")\nprint(df[['客户ID', '客户簇', '客户标签']])",
+      "icon": "users",
+      "description": "根据客户多维特征，将相似客户自动划分为不同群体，实现客户分层。"
+    },
+    {
+      "id": 5,
+      "title": "数据可视化",
+      "knowledge": "数据可视化是将结构化数据转化为图表的技术，直观展示数据分布、趋势、关联、对比关系，是数据分析结果输出的核心方式。主流工具为matplotlib、seaborn。常用图表适配场景：柱状图（分类数据对比）、折线图（时间序列趋势变化）、饼图（占比结构分析）、散点图（变量相关性分析）、热力图（多维数据关联、分布密度）。",
+      "syntax": "import matplotlib.pyplot as plt\nimport seaborn as sns\nplt.rcParams[\"font.sans-serif\"] = [\"SimHei\"]  # 解决中文乱码\n\n# 基础图表语法\nplt.bar(x,y)  # 柱状图\nplt.plot(x,y)  # 折线图\nplt.pie(data,labels=标签)  # 饼图\nplt.scatter(x,y)  # 散点图\nsns.heatmap(矩阵)  # 热力图\n\n# 图表配置\nplt.title(\"标题\")\nplt.xlabel(\"X轴名称\")\nplt.ylabel(\"Y轴名称\")\nplt.show()",
+      "steps": "1. 明确分析目的，选择适配图表类型；2. 整理可视化所需的聚合数据；3. 编写绘图代码，配置标题、坐标轴、图例；4. 优化配色、字体，去除冗余元素；5. 结合图表解读数据规律。",
+      "examples": "# 聚合月度销售额\nmonth_sale = df.groupby(\"月份\")[\"销售额\"].sum()\n# 绘图\nplt.figure(figsize=(10,5))\nplt.plot(month_sale.index,month_sale.values,color=\"red\",marker=\"o\")\nplt.title(\"2025年月度销售额趋势图\")\nplt.xlabel(\"月份\")\nplt.ylabel(\"销售额\")\nplt.grid(True,alpha=0.3)\nplt.show()",
+      "codeTemplate": "import pandas as pd\nimport matplotlib.pyplot as plt\nimport seaborn as sns\nimport numpy as np\n\n# 设置中文字体\nplt.rcParams['font.sans-serif'] = ['SimHei']\nplt.rcParams['axes.unicode_minus'] = False\n\n# 创建示例数据\ndata = {\n    '月份': ['1月', '2月', '3月', '4月', '5月', '6月'],\n    '销售额': [12000, 15000, 13000, 18000, 16000, 20000],\n    '订单数': [80, 100, 90, 120, 110, 140],\n    '品类占比': {'电子产品': 40, '服装': 30, '食品': 20, '其他': 10},\n    '广告投入': [2000, 2500, 1800, 3000, 2200, 3500]\n}\n\nprint(\"========== 数据可视化示例 ==========\")\n\n# 1. 折线图 - 月度销售趋势\nprint(\"\\n1. 绘制折线图\")\nplt.figure(figsize=(10, 5))\nplt.plot(data['月份'], data['销售额'], marker='o', color='blue', linewidth=2, label='销售额')\nplt.title('月度销售额趋势图')\nplt.xlabel('月份')\nplt.ylabel('销售额(元)')\nplt.grid(True, alpha=0.3)\nplt.legend()\nplt.show()\n\n# 2. 柱状图 - 订单数对比\nprint(\"\\n2. 绘制柱状图\")\nplt.figure(figsize=(10, 5))\nplt.bar(data['月份'], data['订单数'], color='orange', alpha=0.7)\nplt.title('各月订单数对比')\nplt.xlabel('月份')\nplt.ylabel('订单数')\nfor i, v in enumerate(data['订单数']):\n    plt.text(i, v + 2, str(v), ha='center')\nplt.show()\n\n# 3. 饼图 - 品类占比\nprint(\"\\n3. 绘制饼图\")\ncategories = list(data['品类占比'].keys())\nsizes = list(data['品类占比'].values())\nplt.figure(figsize=(8, 8))\nplt.pie(sizes, labels=categories, autopct='%1.1f%%', startangle=90, colors=['lightblue', 'lightgreen', 'lightcoral', 'gold'])\nplt.title('商品品类销售占比')\nplt.axis('equal')\nplt.show()\n\n# 4. 散点图 - 广告投入与销售额关系\nprint(\"\\n4. 绘制散点图\")\nplt.figure(figsize=(10, 5))\nplt.scatter(data['广告投入'], data['销售额'], color='purple', s=100, alpha=0.7)\nplt.title('广告投入与销售额关系')\nplt.xlabel('广告投入(元)')\nplt.ylabel('销售额(元)')\nplt.grid(True, alpha=0.3)\nplt.show()\n\n# 5. 相关性热力图\nprint(\"\\n5. 绘制相关性热力图\")\ncorr_data = pd.DataFrame({\n    '销售额': data['销售额'],\n    '订单数': data['订单数'],\n    '广告投入': data['广告投入']\n})\ncorr_matrix = corr_data.corr()\nplt.figure(figsize=(8, 6))\nsns.heatmap(corr_matrix, annot=True, cmap='coolwarm', center=0, vmin=-1, vmax=1)\nplt.title('指标相关性热力图')\nplt.show()",
+      "icon": "chart-bar",
+      "description": "将结构化数据转化为图表，直观展示数据分布、趋势、关联、对比关系。"
+    },
+    {
+      "id": 6,
+      "title": "A/B测试分析",
+      "knowledge": "A/B测试是一种对照实验统计方法，将用户随机分为对照组（A组，原方案）和实验组（B组，新方案），通过统计检验判断新方案指标是否显著优于原方案，用于产品迭代、运营策略优化、页面改版等场景。核心逻辑：通过假设检验，排除数据波动，确认差异为方案本身带来的有效差异。",
+      "syntax": "适用检验：均值检验（t检验）、比率检验（卡方检验）\n核心判定标准：P值<0.05，差异显著；P值≥0.05，差异不显著。\n提升率公式：提升率 = (实验组指标-对照组指标)/对照组指标 × 100%",
+      "steps": "1. 确定测试目标与核心指标（点击率、转化率、客单价等）；2. 设计实验组、对照组，保证样本随机、无干扰；3. 采集两组实验数据，清洗预处理；4. 进行统计显著性检验（t检验/卡方检验）；5. 计算指标提升率，输出实验结论（新方案是否上线）。",
+      "examples": "from scipy.stats import chi2_contingency\n# 对照组、实验组转化数据：[转化数, 未转化数]\ngroup_a = [80, 920]\ngroup_b = [105, 895]\ndata = [group_a,group_b]\n# 卡方检验\nchi2,p,df,expected = chi2_contingency(data)\nprint(f\"P值：{p}\")\nif p < 0.05:\n    print(\"差异显著，新页面转化率显著更高\")\nelse:\n    print(\"差异不显著，无法证明新页面更优\")",
+      "codeTemplate": "import pandas as pd\nimport numpy as np\nfrom scipy.stats import chi2_contingency, ttest_ind\n\nprint(\"========== A/B测试分析示例 ==========\")\n\n# 场景1：卡方检验 - 转化率对比\nprint(\"\\n【场景1】转化率对比 - 卡方检验\")\nprint(\"测试背景：对比新旧两个页面的转化率\")\n\n# 对照组(A组，旧页面)和实验组(B组，新页面)数据\n# 格式：[转化人数, 未转化人数]\ngroup_a = [80, 920]  # 转化率 80/1000=8%\ngroup_b = [105, 895]  # 转化率 105/1000=10.5%\n\ncontingency_table = [group_a, group_b]\n\n# 执行卡方检验\nchi2, p_value, df, expected = chi2_contingency(contingency_table)\n\nprint(f\"\\n对照组(A组) - 样本数: {sum(group_a)}, 转化率: {group_a[0]/sum(group_a):.2%}\")\nprint(f\"实验组(B组) - 样本数: {sum(group_b)}, 转化率: {group_b[0]/sum(group_b):.2%}\")\nprint(f\"\\n卡方值: {chi2:.4f}\")\nprint(f\"P值: {p_value:.4f}\")\n\n# 判断结果\nif p_value < 0.05:\n    print(\"\\n结论：差异显著 (p < 0.05)，新页面转化率显著优于旧页面！\")\nelse:\n    print(\"\\n结论：差异不显著 (p >= 0.05)，无法证明新页面更优。\")\n\n# 计算提升率\nlift_rate = (group_b[0]/sum(group_b) - group_a[0]/sum(group_a)) / (group_a[0]/sum(group_a)) * 100\nprint(f\"提升率: {lift_rate:.2f}%\")\n\n# 场景2：t检验 - 均值对比\nprint(\"\\n\\n【场景2】客单价均值对比 - t检验\")\nprint(\"测试背景：对比新旧两种促销策略的客单价\")\n\nnp.random.seed(42)\n# 模拟数据\ngroup_a_revenue = np.random.normal(150, 30, 200)  # A组平均客单价150\ngroup_b_revenue = np.random.normal(160, 32, 200)  # B组平均客单价160\n\n# 执行t检验\nt_stat, p_value_t = ttest_ind(group_a_revenue, group_b_revenue, equal_var=False)\n\nprint(f\"\\n对照组(A组) - 样本数: {len(group_a_revenue)}, 平均客单价: {np.mean(group_a_revenue):.2f}元\")\nprint(f\"实验组(B组) - 样本数: {len(group_b_revenue)}, 平均客单价: {np.mean(group_b_revenue):.2f}元\")\nprint(f\"\\nt统计量: {t_stat:.4f}\")\nprint(f\"P值: {p_value_t:.4f}\")\n\nif p_value_t < 0.05:\n    print(\"\\n结论：差异显著 (p < 0.05)，新促销策略客单价显著更高！\")\nelse:\n    print(\"\\n结论：差异不显著 (p >= 0.05)，无法证明新策略更优。\")\n\n# 计算提升率\nlift_rate_t = (np.mean(group_b_revenue) - np.mean(group_a_revenue)) / np.mean(group_a_revenue) * 100\nprint(f\"提升率: {lift_rate_t:.2f}%\")",
+      "icon": "test-tube",
+      "description": "通过对照实验和统计检验，判断新方案指标是否显著优于原方案。"
+    },
+    {
+      "id": 7,
+      "title": "时间序列分析",
+      "knowledge": "时间序列是基于时间顺序排列的动态数据的分析方法，核心挖掘数据的趋势、周期性、季节性、随机性，实现数据预测。广泛应用于销量预测、流量预测、金融数据预测。时间序列四大组成部分：长期趋势(T)、季节波动(S)、周期波动(C)、随机扰动(I)。",
+      "syntax": "# 时间序列基础处理\ndf[\"时间\"] = pd.to_datetime(df[\"时间\"])\ndf = df.set_index(\"时间\")  # 设置时间索引\ndf.resample(\"M\").sum()  # 按月重采样聚合\n\n# ARIMA模型语法\nfrom statsmodels.tsa.arima.model import ARIMA\nmodel = ARIMA(数据,order=(p,d,q))  # p自回归阶数、d差分阶数、q移动平均阶数\nresult = model.fit()\nresult.predict(start,end)  # 预测",
+      "steps": "1. 数据预处理：时间格式转换、设置时间索引、缺失值填充；2. 时序可视化：观察趋势、季节性、波动特征；3. 平稳性检验（ADF检验），非平稳数据做差分处理；4. 选择适配模型，训练模型；5. 模型预测、误差评估、结果输出。",
+      "examples": "# 时间索引重采样\nsale_month = df.resample(\"M\")[\"销量\"].sum()\n# 训练ARIMA模型\nmodel = ARIMA(sale_month,order=(1,1,1))\nfit_model = model.fit()\n# 预测未来3期数据\npred = fit_model.get_forecast(steps=3)\nprint(\"未来3个月销量预测：\",pred.predicted_mean)",
+      "codeTemplate": "import pandas as pd\nimport numpy as np\nimport matplotlib.pyplot as plt\nfrom statsmodels.tsa.arima.model import ARIMA\n\n# 设置中文字体\nplt.rcParams['font.sans-serif'] = ['SimHei']\nplt.rcParams['axes.unicode_minus'] = False\n\nprint(\"========== 时间序列分析示例 ==========\")\n\n# 1. 创建示例时间序列数据\nprint(\"\\n1. 创建示例数据\")\ndates = pd.date_range(start='2024-01-01', end='2025-06-30', freq='M')\nnp.random.seed(42)\nsales = np.array([120, 150, 130, 180, 160, 200, 220, 250, 230, 280, 300, 320,\n                  340, 380, 360, 400, 420, 450]) + np.random.randn(18) * 10\n\ndf = pd.DataFrame({'日期': dates, '销量': sales})\ndf.set_index('日期', inplace=True)\nprint(df)\n\n# 2. 时间序列可视化\nprint(\"\\n2. 绘制时间序列图\")\nplt.figure(figsize=(12, 5))\nplt.plot(df.index, df['销量'], marker='o', color='blue', linewidth=2)\nplt.title('月度销量趋势图')\nplt.xlabel('日期')\nplt.ylabel('销量')\nplt.grid(True, alpha=0.3)\nplt.show()\n\n# 3. 重采样示例 - 季度聚合\nprint(\"\\n3. 季度销量汇总\")\nquarterly = df.resample('Q').sum()\nprint(quarterly)\n\n# 4. ARIMA模型训练与预测\nprint(\"\\n4. ARIMA模型预测\")\n# 训练ARIMA模型 (p=1, d=1, q=1)\nmodel = ARIMA(df['销量'], order=(1, 1, 1))\nfit_model = model.fit()\nprint(fit_model.summary())\n\n# 预测未来3个月\nforecast_steps = 3\nforecast = fit_model.get_forecast(steps=forecast_steps)\nforecast_mean = forecast.predicted_mean\nforecast_ci = forecast.conf_int()\n\n# 创建预测日期\nforecast_dates = pd.date_range(start=dates[-1] + pd.DateOffset(months=1), periods=forecast_steps, freq='M')\n\nprint(\"\\n未来3个月销量预测:\")\nforecast_df = pd.DataFrame({'预测销量': forecast_mean.round(2)}, index=forecast_dates)\nprint(forecast_df)\n\n# 绘制预测结果\nplt.figure(figsize=(12, 5))\nplt.plot(df.index, df['销量'], marker='o', color='blue', label='历史销量')\nplt.plot(forecast_dates, forecast_mean, marker='o', color='red', linestyle='--', label='预测销量')\nplt.fill_between(forecast_dates, forecast_ci.iloc[:, 0], forecast_ci.iloc[:, 1], color='pink', alpha=0.3)\nplt.title('销量预测')\nplt.xlabel('日期')\nplt.ylabel('销量')\nplt.legend()\nplt.grid(True, alpha=0.3)\nplt.show()",
+      "icon": "clock",
+      "description": "基于时间顺序排列的动态数据，挖掘趋势、周期性、季节性，实现数据预测。"
+    },
+    {
+      "id": 8,
+      "title": "特征工程",
+      "knowledge": "特征工程是对原始数据进行加工、转换、衍生，生成高质量特征的过程，是机器学习建模的核心基础，特征质量直接决定模型效果。核心目的：让机器读懂数据、提升模型精度、降低拟合误差。核心分类：特征提取、特征转换、特征衍生、特征筛选。",
+      "syntax": "# 1. 分类特征编码\npd.get_dummies(df[\"分类字段\"])  # 独热编码\nfrom sklearn.preprocessing import LabelEncoder\nle = LabelEncoder() # 标签编码（有序分类）\n\n# 2. 数值特征转换\nStandardScaler()  # 标准化：均值0，方差1\nMinMaxScaler()  # 归一化：压缩至0-1区间\n\n# 3. 特征衍生\ndf[\"新特征\"] = df[\"字段1\"] / df[\"字段2\"]  # 业务衍生特征\ndf[\"月份\"] = df[\"时间\"].dt.month  # 时间特征衍生\n\n# 4. 特征筛选\ndf.corr()  # 相关性筛选，剔除高冗余特征",
+      "steps": "1. 特征梳理：区分数值型、分类型、时间型原始特征；2. 特征清洗：过滤无效、缺失严重、方差为0的无用特征；3. 特征转换：编码分类特征、标准化数值特征；4. 特征衍生：结合业务生成新特征（如客单价=总金额/订单数）；5. 特征筛选：剔除高相关冗余特征，保留核心有效特征。",
+      "examples": "# 1. 时间特征衍生\ndf[\"消费月份\"] = df[\"消费时间\"].dt.month\n# 2. 分类特征独热编码\ndf = pd.get_dummies(df,columns=[\"用户等级\",\"设备类型\"])\n# 3. 数值特征标准化\nscaler = StandardScaler()\ndf[\"消费金额\"] = scaler.fit_transform(df[[\"消费金额\"]])\n# 4. 衍生核心特征\ndf[\"月均消费\"] = df[\"总消费金额\"] / df[\"消费月数\"]",
+      "codeTemplate": "import pandas as pd\nimport numpy as np\nfrom sklearn.preprocessing import StandardScaler, MinMaxScaler, LabelEncoder\n\nprint(\"========== 特征工程示例 ==========\")\n\n# 1. 创建原始数据\nprint(\"\\n1. 原始数据\")\ndata = {\n    '用户ID': ['U001', 'U002', 'U003', 'U004', 'U005'],\n    '注册时间': ['2024-01-15', '2024-02-20', '2024-03-10', '2024-01-25', '2024-03-05'],\n    '用户等级': ['VIP', '普通', 'VIP', '普通', 'SVIP'],\n    '设备类型': ['手机', '平板', '电脑', '手机', '手机'],\n    '消费金额': [2500, 800, 5000, 1200, 8000],\n    '订单数': [12, 5, 20, 8, 30],\n    '最近消费天数': [3, 25, 7, 15, 2]\n}\n\ndf = pd.DataFrame(data)\nprint(df)\n\nprint(\"\\n2. 特征转换与衍生\")\n\n# 2.1 时间特征衍生\ndf['注册时间'] = pd.to_datetime(df['注册时间'])\ndf['注册月份'] = df['注册时间'].dt.month\ndf['注册季度'] = df['注册时间'].dt.quarter\n\n# 2.2 业务特征衍生\n# 客单价 = 消费金额 / 订单数\ndf['客单价'] = df['消费金额'] / df['订单数']\n# 活跃度标签（基于最近消费天数）\ndf['活跃度'] = np.where(df['最近消费天数'] <= 7, '活跃', \n                        np.where(df['最近消费天数'] <= 30, '一般', '不活跃'))\n\nprint(\"\\n衍生新特征后:\")\nprint(df)\n\n# 3. 分类特征编码\nprint(\"\\n3. 分类特征编码\")\n\n# 3.1 独热编码（One-Hot Encoding） - 适用于无序分类\nprint(\"\\n独热编码前:\")\nprint(df[['用户等级', '设备类型']])\n\ndf_encoded = pd.get_dummies(df, columns=['用户等级', '设备类型'], dtype=int)\nprint(\"\\n独热编码后:\")\nprint(df_encoded)\n\n# 3.2 标签编码（Label Encoding） - 适用于有序分类\nprint(\"\\n标签编码:\")\nle = LabelEncoder()\ndf_encoded['活跃度_encoded'] = le.fit_transform(df_encoded['活跃度'])\nprint(df_encoded[['活跃度', '活跃度_encoded']])\n\n# 4. 数值特征标准化/归一化\nprint(\"\\n4. 数值特征标准化\")\n\nnumeric_features = ['消费金额', '订单数', '客单价', '最近消费天数']\n\n# 标准化 (StandardScaler) - 均值0，方差1\nscaler_standard = StandardScaler()\ndf_standard = df_encoded.copy()\ndf_standard[numeric_features] = scaler_standard.fit_transform(df_encoded[numeric_features])\nprint(\"标准化后:\")\nprint(df_standard[numeric_features])\n\n# 归一化 (MinMaxScaler) - 0-1区间\nscaler_minmax = MinMaxScaler()\ndf_minmax = df_encoded.copy()\ndf_minmax[numeric_features] = scaler_minmax.fit_transform(df_encoded[numeric_features])\nprint(\"\\n归一化后:\")\nprint(df_minmax[numeric_features])\n\n# 5. 特征相关性分析\nprint(\"\\n5. 特征相关性分析\")\ncorrelation_matrix = df_encoded[numeric_features + ['活跃度_encoded']].corr()\nprint(correlation_matrix.round(3))",
+      "icon": "wrench",
+      "description": "对原始数据进行加工、转换、衍生，生成高质量特征，是机器学习建模的核心基础。"
+    },
+    {
+      "id": 9,
+      "title": "异常值检测",
+      "knowledge": "异常值（离群点）是指偏离正常数据分布的极端数值，由数据错误、特殊业务场景、系统误差导致。异常值会干扰统计分析、模型训练，需检测并处理（保留/修正/删除）。常用检测方法：3σ原则、箱线图四分位数法、Z分数法。",
+      "syntax": "1. 箱线图法（四分位数法，最常用）：\n四分位距：IQR = Q3 - Q1\n异常值边界：下限=Q1-1.5×IQR，上限=Q3+1.5×IQR\n超出上下限的数据即为异常值。\n\n2. 3σ原则：\n数据服从正态分布时，μ±3σ以外的数据为异常值",
+      "steps": "1. 选取需要检测的数值型字段；2. 通过箱线图/3σ原则计算异常值边界；3. 筛选出异常数据，定位异常样本；4. 业务判定：业务合理异常（大额订单）保留，错误数据删除/修正；5. 完成异常值处理。",
+      "examples": "# 计算四分位数\nQ1 = df[\"销售额\"].quantile(0.25)\nQ3 = df[\"销售额\"].quantile(0.75)\nIQR = Q3 - Q1\n# 计算异常值边界\nlower = Q1 - 1.5*IQR\nupper = Q3 + 1.5*IQR\n# 筛选异常值\noutlier = df[(df[\"销售额\"]<lower)|(df[\"销售额\"]>upper)]\nprint(\"异常数据：\",outlier)\n# 删除异常值\ndf_clean = df[(df[\"销售额\"]>lower)&(df[\"销售额\"]<upper)]",
+      "codeTemplate": "import pandas as pd\nimport numpy as np\nimport matplotlib.pyplot as plt\n\n# 设置中文字体\nplt.rcParams['font.sans-serif'] = ['SimHei']\nplt.rcParams['axes.unicode_minus'] = False\n\nprint(\"========== 异常值检测示例 ==========\")\n\n# 1. 创建包含异常值的数据\nprint(\"\\n1. 创建示例数据\")\nnp.random.seed(42)\ndata = {\n    '订单ID': [f'O{i:03d}' for i in range(1, 21)],\n    '销售额': np.concatenate([\n        np.random.normal(200, 50, 16),  # 正常数据\n        [50, 800, 950, 1200]  # 异常值\n    ])\n}\ndf = pd.DataFrame(data)\nprint(df)\n\n# 2. 方法一：箱线图法 (IQR方法)\nprint(\"\\n2. 箱线图法检测异常值\")\nQ1 = df['销售额'].quantile(0.25)\nQ3 = df['销售额'].quantile(0.75)\nIQR = Q3 - Q1\nlower_bound = Q1 - 1.5 * IQR\nupper_bound = Q3 + 1.5 * IQR\n\nprint(f\"Q1 (25%分位数): {Q1:.2f}\")\nprint(f\"Q3 (75%分位数): {Q3:.2f}\")\nprint(f\"IQR (四分位距): {IQR:.2f}\")\nprint(f\"异常值下限: {lower_bound:.2f}\")\nprint(f\"异常值上限: {upper_bound:.2f}\")\n\n# 找出异常值\noutliers_iqr = df[(df['销售额'] < lower_bound) | (df['销售额'] > upper_bound)]\nprint(\"\\n检测到的异常值 (IQR方法):\")\nprint(outliers_iqr)\n\n# 3. 方法二：3σ原则\nprint(\"\\n3. 3σ原则检测异常值\")\nmean = df['销售额'].mean()\nstd = df['销售额'].std()\nlower_bound_3sigma = mean - 3 * std\nupper_bound_3sigma = mean + 3 * std\n\nprint(f\"均值: {mean:.2f}\")\nprint(f\"标准差: {std:.2f}\")\nprint(f\"异常值下限 (3σ): {lower_bound_3sigma:.2f}\")\nprint(f\"异常值上限 (3σ): {upper_bound_3sigma:.2f}\")\n\noutliers_3sigma = df[(df['销售额'] < lower_bound_3sigma) | (df['销售额'] > upper_bound_3sigma)]\nprint(\"\\n检测到的异常值 (3σ方法):\")\nprint(outliers_3sigma)\n\n# 4. 可视化检测\nprint(\"\\n4. 可视化检测\")\nplt.figure(figsize=(10, 5))\n\n# 箱线图\nplt.subplot(1, 2, 1)\nplt.boxplot(df['销售额'])\nplt.title('箱线图检测异常值')\nplt.ylabel('销售额')\n\n# 散点图\nplt.subplot(1, 2, 2)\nplt.scatter(range(len(df)), df['销售额'], c=['red' if x in outliers_iqr['销售额'].values else 'blue' for x in df['销售额']])\nplt.title('散点图 - 异常值标记')\nplt.xlabel('索引')\nplt.ylabel('销售额')\nplt.tight_layout()\nplt.show()\n\n# 5. 异常值处理\nprint(\"\\n5. 异常值处理\")\n\n# 方法A：删除异常值\ndf_remove = df[(df['销售额'] >= lower_bound) & (df['销售额'] <= upper_bound)]\nprint(\"删除异常值后的数据 (前10行):\")\nprint(df_remove.head(10))\n\n# 方法B：用中位数/均值替换异常值\ndf_replace = df.copy()\nmedian_value = df['销售额'].median()\ndf_replace.loc[outliers_iqr.index, '销售额'] = median_value\nprint(\"\\n用中位数替换异常值后的数据 (前10行):\")\nprint(df_replace.head(10))",
+      "icon": "exclamation-triangle",
+      "description": "检测偏离正常数据分布的极端数值，避免干扰统计分析和模型训练。"
+    },
+    {
+      "id": 10,
+      "title": "多数据集合并",
+      "knowledge": "多数据集合并是将多个结构相同/关联的数据集整合为完整数据集的操作，分为纵向合并（拼接行）和横向合并（拼接列/关联匹配），是多源数据整合的基础操作。纵向合并适用于字段相同、数据分批的数据集；横向合并适用于通过关键字段关联的不同维度数据集。",
+      "syntax": "# 1. 纵向合并（行拼接）\npd.concat([df1,df2,df3],ignore_index=True)\n\n# 2. 横向合并（关联匹配，类似SQL连表）\npd.merge(左表,右表,on=关联字段,how=连接方式)\n# 连接方式：inner内连接、left左连接、right右连接、outer全连接",
+      "steps": "1. 探查多数据集结构，确认字段、数据类型、关联主键；2. 统一字段名称、数据类型，消除格式差异；3. 根据业务需求选择纵向拼接或横向关联；4. 选择匹配方式，完成数据集合并；5. 去重、校验数据完整性，输出完整数据集。",
+      "examples": "# 1. 纵向合并1-3月订单数据\ndf1 = pd.read_csv(\"1月订单.csv\")\ndf2 = pd.read_csv(\"2月订单.csv\")\ndf3 = pd.read_csv(\"3月订单.csv\")\norder_all = pd.concat([df1,df2,df3],ignore_index=True)\n\n# 2. 横向关联用户信息表（通过用户ID左连接）\nuser_df = pd.read_csv(\"用户信息.csv\")\nfinal_df = pd.merge(order_all,user_df,on=\"用户ID\",how=\"left\")",
+      "codeTemplate": "import pandas as pd\n\nprint(\"========== 多数据集合并示例 ==========\")\n\n# 1. 创建示例数据 - 分月订单（用于纵向合并）\nprint(\"\\n1. 创建分月订单数据\")\norder_jan = pd.DataFrame({\n    '订单ID': ['O001', 'O002', 'O003'],\n    '用户ID': ['U001', 'U002', 'U001'],\n    '商品': ['手机', '电脑', '平板'],\n    '金额': [3000, 5000, 2000],\n    '月份': ['1月', '1月', '1月']\n})\n\norder_feb = pd.DataFrame({\n    '订单ID': ['O004', 'O005', 'O006'],\n    '用户ID': ['U003', 'U001', 'U002'],\n    '商品': ['耳机', '键盘', '鼠标'],\n    '金额': [200, 300, 150],\n    '月份': ['2月', '2月', '2月']\n})\n\nprint(\"1月订单:\")\nprint(order_jan)\nprint(\"\\n2月订单:\")\nprint(order_feb)\n\n# 2. 纵向合并 (Concat)\nprint(\"\\n2. 纵向合并 - 拼接所有订单\")\norder_all = pd.concat([order_jan, order_feb], ignore_index=True)\nprint(\"合并后的订单数据:\")\nprint(order_all)\n\n# 3. 创建示例数据 - 用户信息（用于横向合并）\nprint(\"\\n3. 创建用户信息数据\")\nuser_info = pd.DataFrame({\n    '用户ID': ['U001', 'U002', 'U003', 'U004'],\n    '姓名': ['张三', '李四', '王五', '赵六'],\n    '城市': ['北京', '上海', '广州', '深圳'],\n    '等级': ['VIP', '普通', 'VIP', '普通']\n})\n\nproduct_info = pd.DataFrame({\n    '商品': ['手机', '电脑', '平板', '耳机', '键盘', '显示器'],\n    '类别': ['数码', '数码', '数码', '配件', '配件', '配件'],\n    '品牌': ['Apple', 'Dell', 'Samsung', 'Sony', 'Logitech', 'LG']\n})\n\nprint(\"用户信息表:\")\nprint(user_info)\nprint(\"\\n商品信息表:\")\nprint(product_info)\n\n# 4. 横向合并 (Merge) - 多种连接方式\nprint(\"\\n4. 横向合并 - 关联用户和商品信息\")\n\n# 4.1 左连接 (Left Join) - 保留左边所有订单\nprint(\"\\n4.1 左连接 (Left Join) - 订单关联用户信息:\")\nmerged_left = pd.merge(order_all, user_info, on='用户ID', how='left')\nprint(merged_left)\n\n# 4.2 内连接 (Inner Join) - 只保留两边都有的记录\nprint(\"\\n4.2 内连接 (Inner Join) - 订单关联商品信息:\")\nmerged_inner = pd.merge(order_all, product_info, on='商品', how='inner')\nprint(merged_inner)\n\n# 4.3 全连接 (Outer Join) - 保留所有记录\nprint(\"\\n4.3 全连接 (Outer Join) - 订单与商品信息:\")\nmerged_outer = pd.merge(order_all, product_info, on='商品', how='outer')\nprint(merged_outer)\n\n# 5. 多层级合并 - 最终完整数据集\nprint(\"\\n5. 多层级合并 - 构建完整分析数据集\")\nfinal_data = pd.merge(order_all, user_info, on='用户ID', how='left')\nfinal_data = pd.merge(final_data, product_info, on='商品', how='left')\nprint(\"完整数据集:\")\nprint(final_data)",
+      "icon": "merge",
+      "description": "将多个结构相同/关联的数据集整合为完整数据集，分为纵向合并和横向合并。"
+    }
+  ]
+}
